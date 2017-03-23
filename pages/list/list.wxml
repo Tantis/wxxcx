@@ -1,0 +1,75 @@
+<view class="wrapper white-bg border-bottom bg-image">
+ 
+  <view class="container">
+    <view class="row ibox">
+      <view class="col-md-9  ">
+        <view class="product-desc ibox-content">
+          <view class="text-muted">平面模特</view>
+          <view href="ecommerce_products_grid.html#" class="product-name"> 广东省广州市天河区时代TIT广场</view>
+          <view class="small m-t-xs">
+              经验要求：<text class="text-muted">不限</text>
+          </view>
+          <view class="small m-t-xs">
+              身高要求：<text class="text-muted">不限</text>
+          </view>
+           <view class="small m-t-xs">
+              <text class="text-muted-content">简介</text>
+          </view>
+          
+          <view class="m-t text-righ">
+            <button>联系</button>
+          </view>
+          <view class="product-price">
+            $10
+          </view>
+        
+        </view>
+      </view>
+       <view class="col-md-9  ">
+        <view class="product-desc ibox-content">
+          <view class="text-muted">平面模特</view>
+          <view href="ecommerce_products_grid.html#" class="product-name"> 广东省广州市天河区时代TIT广场</view>
+          <view class="small m-t-xs">
+              经验要求：<text class="text-muted">不限</text>
+          </view>
+          <view class="small m-t-xs">
+              身高要求：<text class="text-muted">不限</text>
+          </view>
+           <view class="small m-t-xs">
+              <text class="text-muted-content"> 要具有良好的身材和相貌，再加上优秀的个人气质、文化基础、人格素养、服装展示能力等内在素质，这样才能成为一个成功的模特。所以，作为一名模特，应具备各方面的综合素质。总结起来，有体型、相貌、气质、文化基础、职业感觉、展示能力等几方面的条件。</text>
+          </view>
+          <view class="m-t text-righ">
+            <button>联系</button>
+          </view>
+          <view class="product-price">
+            $10
+          </view>
+        
+        </view>
+      </view>
+       <view class="col-md-9  ">
+        <view class="product-desc ibox-content">
+          <view class="text-muted">平面模特</view>
+          <view href="ecommerce_products_grid.html#" class="product-name"> 广东省广州市天河区时代TIT广场</view>
+          <view class="small m-t-xs">
+              经验要求：<text class="text-muted">不限</text>
+          </view>
+          <view class="small m-t-xs">
+              身高要求：<text class="text-muted">不限</text>
+          </view>
+           <view class="small m-t-xs">
+              <text class="text-muted-content">   要具有良好的身材和相貌，再加上优秀的个人气质、文化基础、人格素养、服装展示能力等内在素质，这样才能成为一个成功的模特。所以，作为一名模特，应具备各方面的综合素质。总结起来，有体型、相貌、气质、文化基础、职业感觉、展示能力等几方面的条件。</text>
+          </view>
+          
+          <view class="m-t text-righ">
+            <button>联系</button>
+          </view>
+          <view class="product-price">
+            $10
+          </view>
+        
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

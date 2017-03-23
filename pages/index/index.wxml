@@ -1,0 +1,45 @@
+<view class="wrapper white-bg border-bottom bg-image">
+  <view class="row page-heading ">
+    <view class="col-lg-4">
+      <view class="profile-image ">
+        <image src="{{ userInfo.avatarUrl }}" class="img-circle circle-border m-b-md" alt="profile"></image>
+      </view>
+      <view class="profile-info">
+         {{ userInfo.nickName }}  {{ userInfo.province }}
+        
+      </view>
+      
+    </view>
+  </view>
+</view>
+<view class="row ibox">
+    
+<view class="container">
+  
+  <view wx:for="{{UserList}}" class="col-md-3  ibox-content ">
+      <view class="ibox">
+        <view class="ibox-content product-box">
+          <view class="product-imitation">
+            <video class="media-video" src="{{ item.video.video_url}}" controls></video>
+          </view>
+          <view class="product-desc">
+            <view class="product-price">
+             <text>每{{item.price.time_length }}{{ item.price.time_type}}</text>
+             <text>{{item.price.price}}RMB </text>
+            </view>
+            <view class="text-muted">{{ item.category_name }} - {{item.nickname}}</view>
+            <!--<view href="ecommerce_products_grid.html#" class="product-name"> {{item.nickname}}</view>-->
+            <view class="small m-t-xs">
+                {{ item. introduction}}
+            </view>
+            <view class="m-t text-righ">
+              <button type="primary" href="ecommerce_products_grid.html#" class="btn btn-xs btn-outline btn-primary">详细信息
+              </button>
+            </view>
+          </view>
+        </view>
+      </view>
+  </view>
+
+  </view>
+</view>
