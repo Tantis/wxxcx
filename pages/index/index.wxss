@@ -6,6 +6,19 @@
 .white-bg {
     background-color: #ffffff;
 }
+.right-edit {
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e7eaec;
+  width: 100rpx;
+  text-align: center;
+}
+
+.right-edit:hover {
+  color: #1ab394;
+}
+
 .bg-image {
   background-image: '../../../image/heade-one.jpg';
   background-color: aliceblue;
@@ -28,7 +41,7 @@
 }
 .profile-image {
     float: left;
-    width: 50px;
+    width: 100rpx;
 }
 .profile-info {
    

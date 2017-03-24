@@ -1,0 +1,88 @@
+<view class="row ibox">
+  <view class="container">
+    <view class="col-md-3  ibox-content">
+        <view class="h2"> {{ userInfo.nickName }}</view>
+        <view class="divider"></view>
+      <form bindsubmit="formSubmit" bindreset="formReset">
+
+        <view class="form-group">
+          <view class="label">上传你的视频</view>
+          <view class="product-imitation">
+            <video class="media-video" src="{{ item.video.video_url}}" controls></video>
+          </view>
+          <view class="btn btn-info">上传视频</view>
+        </view>
+        <view class="divider"></view>
+        <view class="form-group">
+          <view class="label">上传你的图片</view>
+          <view class="page__bd">
+            <view class="weui-cells">
+              <view class="weui-cell">
+                <view class="weui-cell__bd">
+                  <view class="weui-uploader">
+                    <view class="weui-uploader__bd">
+                      <view class="weui-uploader__files" id="uploaderFiles">
+                        <block wx:for-items="{{files}}" wx:key="{{index}}">
+                          <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                            <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                          </view>
+                        </block>
+                        <view class="weui-uploader__file">
+                          <image class="weui-uploader__img" src="../images/pic_160.png" mode="aspectFill" />
+                        </view>
+                        <view class="weui-uploader__file">
+                          <image class="weui-uploader__img" src="../images/pic_160.png" mode="aspectFill" />
+                        </view>
+                        <view class="weui-uploader__file">
+                          <image class="weui-uploader__img" src="../images/pic_160.png" mode="aspectFill" />
+                        </view>
+                        <view class="weui-uploader__file weui-uploader__file_status">
+                          <image class="weui-uploader__img" src="../images/pic_160.png" mode="aspectFill" />
+                          <view class="weui-uploader__file-content">
+                            <icon type="warn" size="23" color="#F43530"></icon>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="btn btn-info">上传图片</view>
+          </view>
+        </view>
+        <view class="divider"></view>
+        <view class="form-group">
+          <view class="label">填写你的简介</view>
+           <textarea bindblur="bindTextAreaBlur" class="form-control" auto-height placeholder="我是一名经验丰富的模特" />
+        </view>
+        <view class="divider"></view>
+        <view class="form-group">
+          <view class="label">输入你渴望的金额和时间</view>
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="form-control">
+                当前选择：{{array[index]}}
+                </view>
+            </picker>
+          <input class="form-control" placeholder="这是一个可以自动聚焦的input" auto-focus/>
+        </view>
+        <view class="divider"></view>
+        <view class="form-group">
+          <view class="label">选择你的分类</view>
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="form-control">
+                当前选择：{{array[index]}}
+                </view>
+            </picker>
+        </view>
+        <view class="divider"></view>
+        
+        <view class="form-group">
+          <view class="btn-area">
+            <button formType="submit">提交</button>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>

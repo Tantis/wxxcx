@@ -36,7 +36,8 @@
               身高要求：<text class="text-muted">不限</text>
           </view>
            <view class="small m-t-xs">
-              <text class="text-muted-content"> 要具有良好的身材和相貌，再加上优秀的个人气质、文化基础、人格素养、服装展示能力等内在素质，这样才能成为一个成功的模特。所以，作为一名模特，应具备各方面的综合素质。总结起来，有体型、相貌、气质、文化基础、职业感觉、展示能力等几方面的条件。</text>
+              <text class="text-muted-content"> 
+              要具有良好的身材和相貌，再加上优秀的个人气质、文化基础、人格素养、服装展示能力等内在素质，这样才能成为一个成功的模特。所以，作为一名模特，应具备各方面的综合素质。总结起来，有体型、相貌、气质、文化基础、职业感觉、展示能力等几方面的条件。</text>
           </view>
           <view class="m-t text-righ">
             <button>联系</button>

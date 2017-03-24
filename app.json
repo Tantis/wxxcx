@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/user/user",
     "pages/list/list",
     "pages/index/index"
+    
   ],
   "window": {
     "navigationBarTextStyle": "white",

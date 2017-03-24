@@ -6,9 +6,9 @@
       </view>
       <view class="profile-info">
          {{ userInfo.nickName }}  {{ userInfo.province }}
-        
+         <view class="right-edit" id="tapTest" data-hi="WeChat" bindtap="information"> 修改 </view>
       </view>
-      
+        
     </view>
   </view>
 </view>
