@@ -3,12 +3,11 @@
  
     font-weight: 600;
     color: #ffffff;
-   
     /*background-color: #1ab394;*/
     background-color: coral;
     padding: 10px 12px;
     position: absolute;
-    top: -5px;
+    top: 1px;
     right: 0;
 }
 .text-muted-content {
